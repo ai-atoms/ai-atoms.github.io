@@ -7,12 +7,9 @@
 
     <script>
         window.onload = function () {
-            const destination = window.location.href;
-            if (!destination.includes("ai-atoms.github.io/milady-docs")) {
-                const redirectLocation = "ai-atoms.github.io/milady-docs"
-                document.getElementById("body").innerHTML = "<br/><br/>Redirecting to " + redirectLocation + " ...";
-                window.location.href = redirectLocation;
-            }
+            const redirectLocation = "https://ai-atoms.github.io/milady-docs";
+            document.getElementById("body").innerHTML = "<br/><br/>Redirecting to " + redirectLocation + " ...";
+            window.location.href = redirectLocation;
         }
     </script>
 </head>
